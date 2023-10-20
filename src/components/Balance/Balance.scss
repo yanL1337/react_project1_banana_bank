@@ -1,0 +1,36 @@
+.bankWrapper {
+  background-color: grey;
+  padding: 40px;
+  h1 {
+    margin-bottom: 5vh;
+    background-color: lightgrey;
+    padding: 10px;
+    color: white;
+  }
+  .kontoWrapper {
+    background-color: lightblue;
+    padding: 30px;
+    margin-bottom: 5vh;
+    h2 {
+      margin-bottom: 2vh;
+    }
+    section {
+      h2 {
+        margin-bottom: 1vh;
+      }
+      p {
+        margin-bottom: 3vh;
+      }
+    }
+    input {
+      padding: 10px;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    button {
+      padding: 10px;
+    }
+  }
+}
